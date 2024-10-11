@@ -2,6 +2,8 @@ import "../styles/style.css";
 import "../styles/header.css";
 import "../styles/home.css";
 import "../styles/favorites.css";
+import "../styles/swiper-bundle.min.css";
+import "../styles/care.css";
 
 /*====== show menu =====*/
 const navMenu = document.getElementById('nav-menu'),
@@ -40,3 +42,11 @@ const shadowHeader =() =>{
                       : header.classList.remove('shadow-header')     
 } 
 window.addEventListener('scroll', shadowHeader)
+
+/*===== swiper favorite  =====*/
+/*const swiperFavorites = new Swiper('favorites__swiper', {
+    loop: true,
+    grabCursor: true, 
+    slidesPreView: 'auto', 
+    centeredSlides: 'auto', 
+  })*/

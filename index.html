@@ -5,12 +5,14 @@
 
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chips</title>
   </head>
   <body>
     <script type="module" src="/JS/main.js"></script>
+    <script src="/JS/swiper-bundle.min.js"></script>
+
     <header class="header" id="header">
     <nav class="nav container">
     <a href="#" class="nav__logo">CHIPS</a>
@@ -116,30 +118,33 @@
         <img src="images/cheese.png" alt="" class="favorites__cheese-2">
       </div>
 
-      <div class="favorites__swiper">
-     <article class="favorites__article">
+      <div class="favorites__swiper swiper">
+      <div class="swiper-wrapper">
+     <article class="favorites__article swiper-slide">
       <img src="images/favorite-chips-1.png" alt="" class="favorites__img">
-     <img src="images/leaf-1.png" alt="" class="favorite__leaf-1">
-     <img src="images/leaf-2.png" alt="" class="favorite__leaf-2">
+     <img src="images/leaf-1.png" alt="" class="favorites__leaf-1">
+     <img src="images/leaf-2.png" alt="" class="favorites__leaf-2">
     </article>
 
-    <article class="favorites__article">
+    <article class="favorites__article swiper-slide">
       <img src="images/favorite-chips-2.png" alt="" class="favorites__img">
-     <img src="images/leaf-1.png" alt="" class="favorite__leaf-1">
-     <img src="images/leaf-2.png" alt="" class="favorite__leaf-2">
+     <img src="images/leaf-1.png" alt="" class="favorites__leaf-1">
+     <img src="images/leaf-2.png" alt="" class="favorites__leaf-2">
     </article>
 
-    <article class="favorites__article">
+    <article class="favorites__article swiper-slide">
       <img src="images/favorite-chips-3.png" alt="" class="favorites__img">
-     <img src="images/leaf-1.png" alt="" class="favorite__leaf-1">
-     <img src="images/leaf-2.png" alt="" class="favorite__leaf-2">
+     <img src="images/leaf-1.png" alt="" class="favorites__leaf-1">
+     <img src="images/leaf-2.png" alt="" class="favorites__leaf-2">
     </article>
-
+        </div>
       </div>
-
     </div>
     </section>
 
+    <section class="care section" id="care">
+
+    </section>
     </main>
   </body>
 </html>
