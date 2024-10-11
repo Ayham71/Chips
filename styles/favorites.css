@@ -1,0 +1,55 @@
+.favorites__container{
+    row-gap: 3rem;
+    grid-template-columns: 100%;
+    padding-bottom: 3rem;
+}
+
+.favorites__data{
+    position: relative;
+    text-align: center;
+}
+
+.favorites__cheese-1,
+.favorites__cheese-2{
+    width: 40px;
+    position: absolute;
+    opacity: .5;
+}
+
+.favorites__cheese-1{
+    top: 2rem;
+    right: -1rem;
+    rotate: -15deg;
+}
+
+.favorites__cheese-2{
+    bottom: -2rem;
+    left: -.75rem;
+    transform: scaleX(-1) rotate(45deg);
+}
+
+.favorites__article{
+    position: relative;
+    width: 200px;
+}
+
+.favorites__img{
+    width: 200px;
+}
+
+.favorite__leaf-1,
+.favorite__leaf-2{
+    width: 70px;
+    position: absolute;
+    filter: var(--shadow-img);
+}
+
+.favorite__leaf-1{
+    top: -1rem;
+    right: -.5rem;
+}
+
+.favorite__leaf-2{
+    bottom: -1rem;
+    left: -.5rem;
+}

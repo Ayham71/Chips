@@ -1,6 +1,7 @@
 import "../styles/style.css";
 import "../styles/header.css";
 import "../styles/home.css";
+import "../styles/favorites.css";
 
 /*====== show menu =====*/
 const navMenu = document.getElementById('nav-menu'),
