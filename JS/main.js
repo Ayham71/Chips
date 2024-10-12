@@ -5,6 +5,7 @@ import "../styles/favorites.css";
 import "../styles/swiper-bundle.min.css";
 import "../styles/care-banner.css";
 import "../styles/products.css";
+import "../styles/contact.css";
 
 /*====== show menu =====*/
 const navMenu = document.getElementById('nav-menu'),
