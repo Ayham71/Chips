@@ -3,7 +3,7 @@ import "../styles/header.css";
 import "../styles/home.css";
 import "../styles/favorites.css";
 import "../styles/swiper-bundle.min.css";
-import "../styles/care.css";
+import "../styles/care-banner.css";
 
 /*====== show menu =====*/
 const navMenu = document.getElementById('nav-menu'),
